@@ -1,0 +1,127 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{
+	background-image: url("slike/pozadina.jpg");
+	color:#212020;
+}
+
+
+.Podnaslov{
+	margin-top:50px;
+}
+
+.pozadina{
+	width: 600px;
+	height: auto;
+	margin-top: 50px;
+	background:#B7B7B7;
+	
+}
+
+
+.citat{
+	color: black;
+	margin-top: 60px;
+}
+
+
+.navigacija li {
+    margin: 0 20px;
+    padding: 10px;
+    background-color: #363636;
+    color: white;
+    
+}
+.navigacija{
+	text-align: center;
+	align-content: center;
+	padding: 10px;
+}
+.navigacija ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigacija li:hover {
+    background-color:#252424;
+    color: black;
+}
+.navigacija a{
+	color: white;
+	text-decoration: none;
+}
+.uredjena-lista{
+	align-items: center;
+	
+}
+.uredjena-lista ol{
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 15px;
+}
+.uredjena-lista li{
+	padding: 5px;
+}
+.uredjena-lista a{
+	color: black;
+	text-decoration: none;
+}
+.uredjena-lista a:hover {
+    background-color:#535353;
+    color: black;
+}
+.neuredjena-lista{
+	align-items: center;
+	
+}
+.neuredjena-lista ul{
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	padding: 15px;
+}
+.neuredjena-lista li{
+	padding: 5px;
+}
+.neuredjena-lista a{
+	color: white;
+	text-decoration: none;
+}
+.neuredjena-lista a:hover {
+    background-color:#535353;
+    color: black;
+}
+.slike-pozadina {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+	background: #444343;
+	width: 1500px;
+}
+
+.slike-pozadina img {
+    width: 300px;
+    height: auto;
+    
+}
+.video-pozadina {
+   background: #444343;
+    gap: 10px;
+    padding: 20px;
+	width: 300px;
+}
+
+.video-pozadina video {
+    width: 300px;
+    height: auto;
+    
+}
+.audio-pozadina{
+	margin-top: 30px;
+}
+
